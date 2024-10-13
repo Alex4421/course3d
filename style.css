@@ -46,6 +46,8 @@
     display: flex;
     justify-content: center;
     background-color: #000000;
+    gap: 120px;
+    flex-direction: column;
   }
   .wrapper{
     display: flex;
@@ -54,6 +56,7 @@
     gap: 0px;
     opacity: 0px;
     margin-top: 32px;
+    flex-direction: column;
   }
   header{
     display: flex;
@@ -117,6 +120,7 @@
     height: 746px;
     gap: 0px;
     opacity: 0px;
+    flex-direction: column;
   }
   .wrapper_content_main{
     display: flex;
@@ -264,4 +268,176 @@
     opacity: 0px;
     background: linear-gradient(150.72deg, #0066FF 7.86%, #011D47 84.54%);
     position: absolute;
+  }
+  .auto_frame{
+    display: flex;
+    width:1200px;
+    height:97px;
+    gap: 20px;
+    opacity: 0px;
+    }
+    .frame{
+    width: 224px;
+    height: 97px;
+    gap: 0px;
+    opacity: 0px;
+    display: flex;
+    background-color:#1B1B1B;
+    border-radius: 10px;
+    align-items: center;
+    }
+    .frame_one{
+    width: 130px;
+    height: 35px;
+    }
+    .frame_four{
+    width: 43px;
+    height: 41px;
+    }
+    .second_container{
+    display: flex;
+    width:1200px;
+    height:589px;
+    gap: 20px;
+    }
+    .hi{
+    width: 468px;
+    height: 589px;
+    gap: 0px;
+    border-radius: 20px 20px 20px 20px;
+    opacity: 0px;
+    }
+    .container_text{
+    width: 712px;
+    height: 589px;
+    gap: 10px;
+    border-radius: 20px 20px 20px 20px;
+    opacity: 0px;
+    display: flex;
+    background-color:#1B1B1B;
+    ;
+    }
+    .container_text_content{
+    width: 632px;
+    height: 509px;
+    gap: 82px;
+    opacity: 0px;
+    display: flex;
+    padding: 40px;
+    flex-direction: column;
+    }
+    .about_course{
+    width: 190px;
+    height: 58px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: RF Dewi;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 57.6px;
+    text-align: left;
+    color: white;
+    }
+    .about_course_info{
+    width: 632px;
+    height: 112px;
+    gap: 0px;
+    opacity: 0px;
+    color: white;
+    font-family: TT Firs Neue;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 28.38px;
+    text-align: left;
+    display: flex;
+    }
+    .container_text_content_first{
+    width: 632px;
+    height: 202px;
+    gap: 32px;
+    opacity: 0px;
+    display: flex;
+    flex-direction: column;
+    }
+    .container_text_content_second{
+    width:632px;
+    height:225px;
+    gap: 29px;
+    opacity: 0px;
+    display: flex;
+    }
+    .info_first{
+    width:172px;
+    height:225px;
+    gap: 20px;
+    opacity: 0px;
+    display: flex;
+    flex-direction: column;
+    }
+    .info_second{
+      display: flex;
+      width: 172px;
+      height: 225px;
+      gap: 20px;
+      opacity: 0px;
+      flex-direction: column;
+    }
+    .info_third{
+      display: flex;
+      width: 172px;
+      height: 225px;
+      gap: 20px;
+      opacity: 0px;
+      flex-direction: column;
+    }
+    .icon1{
+      width: 56px;
+      height: 56px;
+      padding: 3.11px 6.26px 3.11px 6.26px;
+      gap: 0px;
+      opacity: 0px;
+      margin: 0;
+    }
+    .number96{
+    width: 86px;
+    height: 77px;
+    gap: 0px;
+    opacity: 0px;
+    display: flex;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 76.8px;
+    text-align: left;
+    color: white;
+    margin-top: 5px;
+    }
+    .info_text{
+    width: 172px;
+    height: 52px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: TT Firs Neue;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 26.4px;
+    text-align: left;
+    color: white;
+    }
+    .custom-line {
+    height: 129px;
+    background-color: white;
+    margin: 95px 0 0 0;
+  }
+  .icon2{
+  width: 56px;
+  height: 48.58px;
+  margin: 2px;
+  }
+  .info_text2{
+  font-family: TT Firs Neue;
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 26.4px;
+  text-align: left;
+  color: white;
   }

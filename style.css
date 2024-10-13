@@ -10,6 +10,7 @@
     font-family: Arial, sans-serif;
     font-size: 16px;
     line-height: 1.5;
+    margin:0 auto;
   }
   
   /* Links */
@@ -44,7 +45,7 @@
     width: 1440px;
     display: flex;
     justify-content: center;
-    /* background-color: #000000; */
+    background-color: #000000;
   }
   .wrapper{
     display: flex;
@@ -92,7 +93,7 @@
     font-weight: 300;
     line-height: 28.38px;
     text-align: left;
-    color: wheat;
+    color: white;
   }
   nav ul li a{
     font-family: TT Firs Neue;
@@ -100,7 +101,7 @@
     font-weight: 300;
     line-height: 28.38px;
     text-align: left;
-    color: wheat;
+    color: white;
   }
   .wrapper_logo p{
     font-family: TT Firs Neue;
@@ -108,7 +109,7 @@
     font-weight: 400;
     line-height: 25.2px;
     text-align: left;
-    color: wheat;
+    color: white;
   }
   .wrapper_content{
     display: flex;
@@ -127,18 +128,39 @@
   }
   .wrapper_content_main_info{
     display: flex;
+    position: relative; 
     width: 1200px;
     height: 515px;
+    
+  }
+  .wrapper_content_main_info::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-position: center;
+    filter: blur(10px);
+    z-index: 1; 
     gap: 0px;
     opacity: 0px;
-  }
+    backdrop-filter: blur(81.69999694824219px);
+    background-image: url(/assets/194183813bb5f52587028b9b366b00e4.png);
+    background-size: cover;
+    filter: blur(46px);
+    margin-left: -46px;
+}
+  
   .wrapper_content_main_info_first{
     display: flex;
-    width:879px;
-    height:444px;
+    width: 712px;
+    height: 444px;
     gap: 40px;
     opacity: 0px;
     flex-direction: column;
+    z-index: 2; 
+    position: relative;
   }
   .wrapper_content_main_info_first_content{
     display: flex;
@@ -165,7 +187,7 @@
     font-weight: 300;
     line-height: 28.38px;
     text-align: left;
-    color: wheat;
+    color: white;
   }
   .text_3d{
     font-family: TT Firs Neue;
@@ -179,6 +201,7 @@
     opacity: 0px;
     width: 879px;
     display: flex;
+    color: white;
   }
   .text_2d{
     display: flex;
@@ -191,6 +214,7 @@
     font-weight: 300;
     line-height: 25.8px;
     text-align: left;
+    color: white;
   }
   .one_button{
     width:301px;
@@ -212,7 +236,32 @@
     height: 28px;
     gap: 0px;
     opacity: 0px;
+    color: white;
   }
   .wrapper_content_main_info_second{
     display: flex;
+    width: 488px;
+    height: 515px;  
+    position: relative;
+    z-index: 2;
+    flex: 1;
+  }
+  .card{
+  width: 311px;
+  height: 515px;
+  left: 414px;
+  gap: 0px;
+  opacity: 0px;
+  margin-top: -61px;
+  }
+  .grad{
+    display: flex;
+    width: 488px;
+    height: 454px;
+    top: 61px;
+    gap: 0px;
+    border-radius: 20px 20px 20px 20px;
+    opacity: 0px;
+    background: linear-gradient(150.72deg, #0066FF 7.86%, #011D47 84.54%);
+    position: absolute;
   }

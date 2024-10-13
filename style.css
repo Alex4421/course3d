@@ -119,10 +119,11 @@
   }
   .wrapper_content_main{
     display: flex;
-    width:1,200px;
+    width:1200px;
     height:653px;
     gap: 64px;
     opacity: 0px;
+    flex-direction: column;
   }
   .wrapper_content_main_info{
     display: flex;
@@ -137,11 +138,78 @@
     height:444px;
     gap: 40px;
     opacity: 0px;
+    flex-direction: column;
   }
   .wrapper_content_main_info_first_content{
     display: flex;
     width:879px;
     height:348px;
     gap: 32px;
+    opacity: 0px;
+    flex-direction: column;
+  }
+  .one{
+    width: 183px;
+    height: 43px;
+    gap: 0px;
+    border-radius: 20px 20px 20px 20px;
+    opacity: 0px;
+    border: 1px solid #D9D9D9;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  }
+  .one p{
+    font-family: TT Firs Neue;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 28.38px;
+    text-align: left;
+    color: wheat;
+  }
+  .text_3d{
+    font-family: TT Firs Neue;
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 77.4px;
+    text-align: left;
+    width: 879px;
+    height: 154px;
+    gap: 0px;
+    opacity: 0px;
+    width: 879px;
+    display: flex;
+  }
+  .text_2d{
+    display: flex;
+    width: 692px;
+    height: 87px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: TT Firs Neue;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 25.8px;
+    text-align: left;
+  }
+  .one_button{
+    width:301px;
+    height:56px;
+    border-radius: 5px 5px 5px 5px;
+    background: #0041C0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .one_button p{
+    font-family: TT Firs Neue;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 28.38px;
+    text-align: left;
+    display: flex;
+    width: 125px;
+    height: 28px;
+    gap: 0px;
     opacity: 0px;
   }

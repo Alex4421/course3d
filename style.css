@@ -441,3 +441,23 @@
   text-align: left;
   color: white;
   }
+  html{
+    scroll-behavior: smooth;
+  }
+  a {
+    display: inline-block; /* Строчно-блочный элемент */
+    transition: 0.3s; /* Время перехода */
+   }
+   a:hover {
+    transform: rotate(3deg) translate(5px); /* Трансформация */
+    text-decoration: none;
+    color: wheat;
+   }
+   .one p:hover{
+    cursor: pointer;
+    color: wheat;
+   }
+   .one:hover{
+    cursor: pointer;
+    background-color: #1B1B1B;
+   }

@@ -213,3 +213,6 @@
     gap: 0px;
     opacity: 0px;
   }
+  .wrapper_content_main_info_second{
+    display: flex;
+  }

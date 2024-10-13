@@ -1,0 +1,147 @@
+/* Box model */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Typography */
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  /* Links */
+  a {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Lists */
+  ul, ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Tables */
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+  
+  /* Images */
+  img {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+  body{
+    width: 1440px;
+    display: flex;
+    justify-content: center;
+    /* background-color: #000000; */
+  }
+  .wrapper{
+    display: flex;
+    width: 1200px;
+    height:843px;
+    gap: 0px;
+    opacity: 0px;
+    margin-top: 32px;
+  }
+  header{
+    display: flex;
+    width: 1201px;
+    height: 74px;
+    gap: 75px;
+    opacity: 0px;
+    align-items: center;
+  }
+  nav ul{
+    display: flex;
+    gap: 64px;
+    width:659px;
+    height:28px;
+    justify-content: space-between;
+  }
+  .wrapper_logo{
+    width: 189px;
+    height: 74px;
+    padding: 0px 0px 24px 84px;
+    gap: 0px;
+    opacity: 0px;
+  }
+  .button_header{
+    width:201px;
+    height:56px;
+    display: flex;
+    border: 2px solid #0041C0;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+  }
+  .sign_up{
+    display: flex;
+    font-family: TT Firs Neue;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 28.38px;
+    text-align: left;
+    color: wheat;
+  }
+  nav ul li a{
+    font-family: TT Firs Neue;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 28.38px;
+    text-align: left;
+    color: wheat;
+  }
+  .wrapper_logo p{
+    font-family: TT Firs Neue;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 25.2px;
+    text-align: left;
+    color: wheat;
+  }
+  .wrapper_content{
+    display: flex;
+    width: 1200px;
+    height: 746px;
+    gap: 0px;
+    opacity: 0px;
+  }
+  .wrapper_content_main{
+    display: flex;
+    width:1,200px;
+    height:653px;
+    gap: 64px;
+    opacity: 0px;
+  }
+  .wrapper_content_main_info{
+    display: flex;
+    width: 1200px;
+    height: 515px;
+    gap: 0px;
+    opacity: 0px;
+  }
+  .wrapper_content_main_info_first{
+    display: flex;
+    width:879px;
+    height:444px;
+    gap: 40px;
+    opacity: 0px;
+  }
+  .wrapper_content_main_info_first_content{
+    display: flex;
+    width:879px;
+    height:348px;
+    gap: 32px;
+    opacity: 0px;
+  }

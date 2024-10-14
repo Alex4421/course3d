@@ -461,3 +461,184 @@
     cursor: pointer;
     background-color: #1B1B1B;
    }
+   .third_container{
+    display: flex;
+    width: 1200px;
+    height: 488px;
+    gap: 40px;
+    opacity: 0px;
+    flex-direction: column;
+   }
+   .for{
+    width: 218px;
+    height: 62px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: TT Firs Neue;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 61.92px;
+    text-align: left;
+    color:white;
+   }
+   .third_container_main_one{
+    display: flex;
+    flex-direction: column;
+    width: 590px;
+    height: 386px;
+    gap: 0px;
+    border-radius: 20px 20px 20px 20px;
+    opacity: 0px;
+    background: linear-gradient(150.72deg, #0066FF 7.86%, #011D47 84.54%);
+   }
+   .icon14{
+    width: 64px;
+    height: 64px;
+    gap: 0px;
+    opacity: 0px;
+    margin: 0;
+   }
+   .new_user{
+    width: 125px;
+    height: 31px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: TT Firs Neue;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 30.96px;
+    text-align: left;
+    color: white;
+    display: flex;
+   }
+   .new_user_info{
+    display: flex;
+    width: 304px;
+    height: 88px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: TT Firs Neue;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 21.93px;
+    text-align: left;
+    color: white;
+   }
+   .third_container_main_one_mini{
+    display: flex;
+    width: 304px;
+    height: 229px;
+    top: 40px;
+    left: 40px;
+    gap: 23px;
+    opacity: 0px;
+    flex-direction: column;
+    margin: 40px 0px 0px 40px;
+   }
+   .girl{
+    width: 243px;
+    height: 289px;
+    gap: 0px;
+    opacity: 0px;
+    margin-top: 0px;
+    margin-left: 0px;
+    position: absolute;
+    margin-left: 338px;
+    margin-top: 97px;
+   }
+   .third_container_main{
+    display: flex;
+    width: 1200px;
+    height: 386px;
+    gap: 20px;
+    opacity: 0px;
+   }
+   .third_container_main_two{
+    display: flex;
+    width: 285px;
+    height: 386px;
+    gap: 0px;
+    border-radius: 20px 20px 20px 20px;
+    opacity: 0px;
+    background: linear-gradient(150.72deg, #0066FF 7.86%, #011D47 84.54%);
+   }
+   .third_container_main_two_mini{
+    display: flex;
+    flex-direction: column;
+    width: 205px;
+    height: 306px;
+    top: 40px;
+    left: 40px;
+    gap: 24px;
+    opacity: 0px;
+    margin: 40px;
+   }
+   .new_user1{
+    width: 205px;
+    height: 62px;
+    gap: 0px;
+    opacity: 0px;
+    color: white;
+    font-family: TT Firs Neue;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 30.96px;
+    text-align: left;
+   }
+   .new_user_info1{
+    width: 205px;
+    height: 132px;
+    gap: 0px;
+    opacity: 0px;
+    display: flex;
+    font-family: TT Firs Neue;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 21.93px;
+    text-align: left;
+    color: white;
+   }
+   .third_container_main_three{
+    width: 285px;
+    height: 386px;
+    gap: 0px;
+    border-radius: 20px 20px 20px 20px;
+    opacity: 0px;
+    display: flex;
+    background: linear-gradient(150.72deg, #0066FF 7.86%, #011D47 84.54%);
+   }
+   .new_user2{
+    color: white;
+    width: 87px;
+    height: 31px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: TT Firs Neue;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 30.96px;
+    text-align: left;
+   }
+   .third_container_main_three_mini{
+    width: 205px;
+    height: 297px;
+    top: 40px;
+    left: 40px;
+    gap: 24px;
+    opacity: 0px;
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+   }
+   .new_user_info2{
+    width: 205px;
+    height: 154px;
+    gap: 0px;
+    opacity: 0px;
+    color: white;
+    font-family: TT Firs Neue;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 21.93px;
+    text-align: left;
+   }
